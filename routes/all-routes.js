@@ -24,6 +24,11 @@ router.put('/roles/:id', updateRole);
 router.delete('/roles/:id', deleteRole);
 
 // Employee routes
+router.get('/employees', showEmployees);
+router.get('/employees/:id', showEmployeeById);
+router.post('/employees', createEmployee);
+router.put('/employees/:id', updateEmployee);
+router.delete('/employees/:id', deleteEmployee);
  
 // export default router
 export default router;
